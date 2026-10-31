@@ -57,3 +57,10 @@ Node *insert(Node *root, int time)
 }
 
 Node balancing(Node *root)
+{
+    if (get_height(root->left) - get_height(root->right) > 1)
+    {
+        Node *temp = root->root->left->right = root;
+        root->
+    }
+}
